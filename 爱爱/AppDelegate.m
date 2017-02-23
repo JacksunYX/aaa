@@ -72,7 +72,7 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    NSLog(@"程序启动了");
+    NSLog(@"程序启动了aaa");
     
     [UIApplication sharedApplication].statusBarStyle = UIStatusBarStyleDefault;
     

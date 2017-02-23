@@ -108,7 +108,7 @@
 
 - (UIStatusBarStyle)preferredStatusBarStyle
 {
-    return _preferredStatusBarStyle;
+    return self.preferredStatusBarStyle;
 }
 
 - (void)setSupportedInterfaceOrientations:(UIInterfaceOrientationMask)supportedInterfaceOrientations
