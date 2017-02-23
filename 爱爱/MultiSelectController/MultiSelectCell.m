@@ -30,10 +30,7 @@
 #import "MultiSelectCell.h"
 
 @implementation MultiSelectCell
--(void)awakeFromNib
-{
-    
-}
+
 -(IBAction)btnCancelTapped:(id)sender
 {
     if([self.delegate respondsToSelector:@selector(didCancelClicked:)])
